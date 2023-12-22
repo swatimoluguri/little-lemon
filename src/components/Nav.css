@@ -48,7 +48,7 @@ nav img{
     color:#495E57;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:1100px){
     #navbar {
         display: flex;
         flex-direction: column;
@@ -58,7 +58,7 @@ nav img{
         right:-400px;
         top:100px;
         width:300px;
-        background-color: #495E57;
+        background-color: #F4CE14;
         transition: 0.3s ease-in-out;
     }
     #navbar.active{
@@ -69,12 +69,12 @@ nav img{
         margin: 20px 20px;
     }
     #navbar li a{
-        color:white;
+        color:#495E57;
     }
     #navbar li a:hover{
         font-weight: bold;
         padding-bottom: 10px;
-        border-bottom: 2px solid #F4CE14;
+        border-bottom: 2px solid #495E57;
         transition: 0.2s ease-in-out;
     }
     #mobile{
