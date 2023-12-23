@@ -1,0 +1,39 @@
+#reviewImg{
+    border-radius: 50%;
+    box-shadow: 3px 3px 15px rgba(0,0,0,.2);
+    width: 6em;
+    height: 6em;
+}
+#reviewRating{
+    margin: 1em;
+    width: 50%;
+}
+
+#reviewers h4 {
+    color: #000;
+    font-family: Markazi Text,serif;
+    font-size: 25px;
+    margin: 0em;
+    padding:0;
+    text-align: center;
+}
+
+#reviewers p {
+    margin: 0.5em;
+    padding:0;
+}
+#reviewers{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    width: 100%;
+}
+
+#review{
+    background-color: #fff;
+    box-shadow: 3px 3px 15px rgba(0,0,0,.2);
+    height: 250px;
+    margin: 2em;
+    width: 250px;
+}
