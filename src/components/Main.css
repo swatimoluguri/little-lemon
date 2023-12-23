@@ -1,0 +1,126 @@
+.hero {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    background-color: #495E57;
+}
+
+.rightHero img {
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, .2);
+    height: 500px;
+    margin-left: 6em;
+    margin-top: 2em;
+    margin-right: 10em;
+}
+
+.leftHero {
+    width:40%;
+    margin: 5em 0em 0em 10em;
+    color: white;
+}
+
+.leftHero span {
+    font-family: 'Markazi';
+    font-size: 60px;
+    color: #F4CE14;
+    font-weight: bolder;
+}
+
+.leftHero p {
+    font-family: 'Markazi';
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0px 0px 0px ;
+}
+
+#desc {
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.leftHero button {
+    margin-top: 1em;
+    border-radius: 50px;
+    background-color: #F4CE14;
+    padding: 15px 30px;
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#specials{
+    font-family: 'Markazi';
+    font-size: 60px;
+    margin: 1em 0em 0em 2em ;
+    color:#495E57;
+}
+
+@media screen and (max-width:1100px) {
+    .rightHero img {
+        height: 400px;
+        margin-right: 5em;
+        margin-left: 2em;
+    }
+
+    .hero {
+        height: 350px;
+    }
+
+    .leftHero {
+        margin: 2em 0em 0em 2em;
+    }
+
+    .leftHero span {
+        font-size: 40px;
+    }
+
+    .leftHero p {
+        font-size: 30px;
+    }
+
+    #desc {
+        font-size: 15px;
+    }
+    #specials{
+        font-size: 40px;
+        margin: 1em 0em 0em 2em ;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .hero {
+        justify-content: flex-start;
+    }
+
+    .rightHero img {
+        height: 350px;
+        margin-right: 2em;
+        margin-left: 1em;
+    }
+
+    .leftHero span {
+        font-size: 30px;
+    }
+
+    .leftHero p {
+        font-size: 20px;
+    }
+
+    #desc {
+        font-size: 12px;
+    }
+
+    .leftHero button {
+        margin-top: 2em;
+        font-size: 15px;
+    }
+    #specials{
+        font-size: 30px;
+        margin: 1em 0em 0em 2em ;
+    }
+}
