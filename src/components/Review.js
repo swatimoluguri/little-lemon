@@ -10,9 +10,9 @@ const Review = () => {
             getImageSrc: () => require("../assets/pranay.jpg"),
         },
         {
-            title: "Ashish",
+            title: "Gaurav",
             comment: "Really enjoyed the atmosphere.",
-            getImageSrc: () => require("../assets/ashish.jpg"),
+            getImageSrc: () => require("../assets/gaurav.jpg"),
         },
         {
             title: "Vaishnavi",
@@ -33,7 +33,7 @@ const Review = () => {
                     <img id="reviewImg" src={reviewer.getImageSrc()} alt={reviewer.title} />
                     <div>
                         <h4>{reviewer.title}</h4>
-                        <p>{reviewer.comment}</p>
+                        <p>"{reviewer.comment}"</p>
                     </div>
                 </div>
             ))}</div>
