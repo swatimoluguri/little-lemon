@@ -15,12 +15,12 @@ class Nav extends Component{
                 </div>
                 <div>
                     <ul id="navbar" className={this.state.clicked?"#navbar active":"#navbar"}>
-                        <li><a href="/" title="Home">Home</a></li>
-                        <li><a href="/" title="Menu">Menu</a></li>
-                        <li><a href="/" title="Book a Table">Book a Table</a></li>
-                        <li><a href="/" title="Order Online">Order Online</a></li>
-                        <li><a href="/" title="About">About</a></li>
-                        <li><a href="/" title="Login/Signin">Login/Signin</a></li>
+                        <li><a  title="Home">Home</a></li>
+                        <li><a  title="Menu">Menu</a></li>
+                        <li><a  title="Book a Table">Book a Table</a></li>
+                        <li><a  title="Order Online">Order Online</a></li>
+                        <li><a  title="About">About</a></li>
+                        <li><a  title="Login/Signin">Login/Signin</a></li>
                     </ul>
                 </div>
                 <div id="mobile" onClick={this.handleClick}>
