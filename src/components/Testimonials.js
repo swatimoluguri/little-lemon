@@ -1,12 +1,12 @@
 import React from "react";
-import "./Review.css";
+import '../App.css';
 import Ratings from "../assets/ratings.png";
 
-const Review = () => {
+const Testimonials = () => {
     const reviewers = [
         {
             title: "Pranay",
-            comment:"Greek salad was excellent",
+            comment: "Greek salad was excellent",
             getImageSrc: () => require("../assets/pranay.jpg"),
         },
         {
@@ -16,17 +16,18 @@ const Review = () => {
         },
         {
             title: "Vaishnavi",
-            comment:"You have to try the Greek Salad!",
+            comment: "You have to try the Greek Salad!",
             getImageSrc: () => require("../assets/vaishnavi.jpg"),
         },
         {
             title: "Pallavi",
-            comment:"Awesome place peaceful atmosphere with delicious food",
+            comment: "Awesome place peaceful atmosphere with delicious food",
             getImageSrc: () => require("../assets/pallavi.jpg"),
         },
     ];
     return (
-        <>
+        <section id="testimonials">
+            <h1>Testimonials</h1>
             <div id="reviewers"> {reviewers.map((reviewer) => (
                 <div id="review">
                     <img id="reviewRating" src={Ratings} alt="Ratings" />
@@ -37,7 +38,7 @@ const Review = () => {
                     </div>
                 </div>
             ))}</div>
-        </>
+        </section>
     );
 };
-export default Review;
+export default Testimonials;

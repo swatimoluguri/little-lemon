@@ -1,7 +1,7 @@
 import React from "react";
-import "./Card.css";
+import '../App.css';
 
-const Card = () => {
+const Specials = () => {
     const projects = [
         {
             title: "Greek Salad",
@@ -23,7 +23,8 @@ const Card = () => {
         },
     ];
     return (
-        <>
+        <section id="specialDishes">
+                <h4>Specials</h4>
             <div id="specials">{projects.map((project) => (
                 <div id="card">
                     <img src={project.getImageSrc()} alt={project.title} />
@@ -33,8 +34,8 @@ const Card = () => {
                     </div>
                 </div>
             ))}</div>
-        </>
+        </section>
     );
 };
 
-export default Card;
+export default Specials;
