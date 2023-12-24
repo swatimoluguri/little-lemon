@@ -6,10 +6,10 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-    <meta name="description" content="your text goes here"/>
-    <meta name="og:title" content=""/>
-    <meta name="og:description" content=""/>
-    <meta name="og:image" content=""/>
+    <meta name="description" content="Little Lemon Restaurant is a Mediterranean restaurant in Chicago"/>
+    <meta name="og:title" content="Little Lemon Restaurant"/>
+    <meta name="og:description" content="Little Lemon Restaurant is a Mediterranean restaurant in Chicago"/>
+    <meta name="og:image" content="../src/assets/logo-m.jpg"/>
     <Header>
     </Header>
     <Main>
