@@ -1,1 +1,1 @@
-Hi, I am Swati and this is my capstone project.
+Hi, I am Swati and this is my capstone project for Coursera's Meta Front End Developer Course.
