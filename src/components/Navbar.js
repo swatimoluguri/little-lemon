@@ -4,6 +4,7 @@ import '../App.css';
 import { Routes, Route, Link } from "react-router-dom";
 import Homepage from "./Homepage";
 import Reservation from "./Reservation";
+import Confirmation from "./Confirmation";
 
 
 class Navbar extends Component {
@@ -35,6 +36,7 @@ class Navbar extends Component {
                 <Routes>
                     <Route path="/" element={<Homepage />} />
                     <Route path="/reservations" element={<Reservation />} />
+                    <Route path="/confirmation" element={<Confirmation />} />
                 </Routes>
             </>
         );
