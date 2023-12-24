@@ -8,7 +8,6 @@ function updateTimes(date) {
     return fetchAPI(date);
 }
 
-
 const validateEmail = (email) => {
     return String(email)
         .toLowerCase()
