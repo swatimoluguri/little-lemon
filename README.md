@@ -59,4 +59,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Author
 
-- [Prashant Jagtap](https://github.com/swatimoluguri)
+- [Swati Moluguri](https://github.com/swatimoluguri)
